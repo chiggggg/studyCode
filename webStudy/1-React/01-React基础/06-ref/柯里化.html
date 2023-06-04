@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>柯里化</title>
+</head>
+
+<body>
+<br>
+<div id="example"></div>
+<script type="text/javascript" src="../js/react.development.js"></script>
+<script type="text/javascript" src="../js/react-dom.development.js"></script>
+<script type="text/javascript" src="../js/babel.min.js"></script>
+<script type="text/babel">
+	class Login extends React.Component {
+		state = {
+			username: '',
+			password: ''
+		}
+
+		saveData = (type) => {
+			return (event) => {
+				this.setState({
+					[type]: event.target.value
+				})
+			}
+		}
+
+		showData = (event) => {
+			event.preventDefault()
+			alert('用户名是：' + this.state.username + '\n' + '密码是：' + this.state.password)
+		}
+
+		render () {
+			return (
+				<form>
+					<input onChange={this.saveData('username')} type="text" onSubmit={this.showData}/>
+					<button onClick={this.showData}>登录</button>
+					<input onChange={this.saveData('password')} type="password"/>
+				</form>
+			)
+		}
+	}
+
+	ReactDOM.render(<Login/>,document.getElementById('example'))
+</script>
+</body>
+
+</html>
