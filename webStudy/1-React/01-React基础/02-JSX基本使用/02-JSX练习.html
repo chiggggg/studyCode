@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>JSX练习</title>
+</head>
+
+<body>
+<div id="example1"></div>
+
+<script type="text/javascript" src="../js/react.development.js"></script>
+<script type="text/javascript" src="../js/react-dom.development.js"></script>
+<script type="text/javascript" src="../js/babel.min.js"></script>
+
+<script type="text/babel">
+    const arr = [{
+        name: 'zs',
+        age: 45
+    }, {
+        name: 'ls',
+        age: 39
+    }]
+    let vDom = arr.map(e => {
+        return <div key={e.age}>
+                    <h2>{e.name}</h2>
+                    <h3>{e.age}</h3>
+               </div>
+    })
+
+    ReactDOM.render(vDom, document.getElementById('example1'))
+
+</script>
+</body>
+
+</html>
