@@ -5,37 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52603820-0de2-4de0-b1ba-ffde3cdcac40" name="更改" comment="todoList todo">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1脚手架自带/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1脚手架自带/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1脚手架自带/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1脚手架自带/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1脚手架自带/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1脚手架自带/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1脚手架自带/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1脚手架自带/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1脚手架自带/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1脚手架自带/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1脚手架自带/src/setupTests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2src-hello/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2src-hello/components/Hello/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2src-hello/components/Hello/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2src-hello/components/Welcome/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2src-hello/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Item/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/List/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/studyCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/studyCode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01-React基础/09-组件的生命周期/01-生命周期(旧).html" beforeDir="false" afterPath="$PROJECT_DIR$/../01-React基础/09-组件的生命周期/01-生命周期(旧).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/watcherTasks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/jsLinters/jshint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/jsLinters/jshint.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +32,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -66,23 +47,24 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/aloha/Desktop/code/studyCode",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editing.templates",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/aloha/Desktop/TechnologicalBreakthrough/studyCode/webStudy/1-React/react_staging&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\aloha\Desktop\code\studyCode\webStudy\1-React\react_staging\public" />
@@ -121,6 +103,8 @@
       <option name="presentableId" value="Default" />
       <updated>1686056524342</updated>
       <workItem from="1686056528783" duration="6962000" />
+      <workItem from="1686105126642" duration="22000" />
+      <workItem from="1686105160366" duration="55000" />
     </task>
     <servers />
   </component>

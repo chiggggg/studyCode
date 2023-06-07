@@ -1,0 +1,19 @@
+.footer {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+  .option {
+    width: 8%;
+    margin-right: 5px;
+  }
+  .statistics {
+    width: 70%;
+    vertical-align: text-top;
+  }
+  .deleteBtn {
+    width: 18%;
+  }
+
+}
