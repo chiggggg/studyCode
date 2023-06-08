@@ -9,12 +9,19 @@ export default class Search extends Component {
         pubsub.publish('getUserList', {loading: true, first: false})
         getAvatar(value.trim()).then(res => {
             if (res.items.length > 0) {
-                pubsub.publish('getUserList', {lists: res.items, loading: false, first: false, noList: false})
+                pubsub.publish('getUserList', {
+                    lists: res.items,
+                    loading: false,
+                    first: false,
+                    noList: false,
+                    err: null
+                })
             } else {
-                pubsub.publish('getUserList', {lists: res.items, loading: false, noList: true})
+                pubsub.publish('getUserList', {lists: res.items, loading: false, noList: true, err: null})
             }
 
-        }, err => {
+        }).catch(err => {
+            console.error(err.message)
             pubsub.publish('getUserList', {err})
         })
     }

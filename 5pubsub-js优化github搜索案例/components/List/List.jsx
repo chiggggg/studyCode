@@ -20,7 +20,7 @@ export default class List extends Component {
     }
 
     show = () => {
-        if (this.state.err) {
+        if (this.state.err !== null) {
             return <div className="list">{this.state.err.massage}</div>
         }
         if (this.state.first) {
